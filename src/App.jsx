@@ -1,15 +1,15 @@
-
 import './App.css'
+
+import InventoryList from "./components/InventoryList.jsx";
 
 function App() {
 
 
-  return (
-    <>
-      <div>
-      </div>
-    </>
-  )
+    return (
+        <>
+            <InventoryList/>
+        </>
+    )
 }
 
-export default App
+export default App;
